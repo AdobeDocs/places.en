@@ -11,7 +11,7 @@ Here is a helpful video to get an overview of Places Services:
 Test of different youtube link for exl
 -->
 
->[!VIDEO](https://youtu.be/aV6i_ayxWCw)
+>[!VIDEO](https://video.tv.adobe.com/v/41647)
  
 ## Using Places Service
 

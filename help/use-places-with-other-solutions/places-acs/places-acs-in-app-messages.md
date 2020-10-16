@@ -44,4 +44,6 @@ Before you begin, complete the following tasks:
 
 Using Places Services with Adobe Campaign Standard gives you a powerful tool to segment and target your messaging to users based on geo-fence entries and exits. This integration allows you to build more personalized and contextual use cases.
 
->[!VIDEO](https://www.youtube.com/watch?v=ikiTTQw9c-o)
+<!--I changed this embed to a link to pass validation. We should not link to youtube videos, so please upload this to MCP-->
+
+[Adobe Experience Platform Location Service with Campaign Messaging](https://www.youtube.com/watch?v=ikiTTQw9c-o)

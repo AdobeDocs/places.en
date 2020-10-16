@@ -7,11 +7,13 @@ description: This section provides information about how to bulk upload your POI
 
 The **Import POIs** button in the Places Service can be used to bulk upload new POIs using a CSV file. A sample spreadsheet template is provided to show which data columns are required and how to add optional custom metadata. 
 
- ![Bulk Import Screen](/help/assets/Bulk-import.png)
+![Bulk Import Screen](/help/assets/Bulk-import.png)
  
- A video showing the process for bulk import and bulk edit is below:
+See this video showing the process for bulk import and bulk edit:
 
->[!VIDEO](https://www.youtube.com/watch?v=75qVtirsXhg)
+<!--I changed this embed to a link to pass validation. We should not link to youtube videos, so please upload this to MCP-->
+
+[Places Service Bulk Import and Edit POIs](https://www.youtube.com/watch?v=75qVtirsXhg)
 
 ## Python API scripts
 

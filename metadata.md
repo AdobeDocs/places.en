@@ -1,6 +1,8 @@
 ---
 cloud: experience-cloud
 product: adobe experience platform
+solution: Experience Platform, Data Collection
+type: Documentation
 solution-title: Learn & Support
 solution-hub-url:  https://helpx.adobe.com/support/experience-cloud.html
 getting-started-title: Getting Started

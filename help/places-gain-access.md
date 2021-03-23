@@ -42,7 +42,7 @@ If this is the first time you are adding a user, complete the following steps to
 
 1. Under **[!UICONTROL Platform]**, click **[!UICONTROL Administration]**.
 
-   If you do not see **Administration** in the list, you are not an admin. You must contact your org admin to complete this procedure.
+   If you do not see **[!UICONTROL Administration]** in the list, you are not an admin. You must contact your org admin to complete this procedure.
 
 1. In the Experience Cloud Administration page, on the **[!UICONTROL Admin Console]** card, click **[!UICONTROL Take me there]**.
 
@@ -176,6 +176,6 @@ To add a developer:
 
 1. In the **[!UICONTROL Please select a profile for this product]** drop-down list, select the Places Service profile.
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
-Users receive an email that notifies them that they have access to Experience Platform Launch. They can can log in to the [Experience Platform Launch](https://launch.adobe.com) or the [Places Service](https://places.adobe.com) UIs for this organization. If you complete step 4 in the **Add a developer** procedure, the user can also log in to the [Adobe I/O console](https://console.adobe.io) to create a Places integration and use the Places REST API.
+Users receive an email that notifies them that they have access to Experience Platform Launch. They can can log in to the [Experience Platform Launch](https://launch.adobe.com) or the [Places Service](https://places.adobe.com) UIs for this organization. If you complete step 4 in the **[!UICONTROL Add a developer]** procedure, the user can also log in to the [Adobe I/O console](https://console.adobe.io) to create a Places integration and use the Places REST API.

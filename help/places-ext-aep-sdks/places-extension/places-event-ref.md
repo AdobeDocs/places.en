@@ -1,8 +1,8 @@
 ---
 title: Places event reference
-description: A list of the events that are handled by the Places extension. 
+description: A list of the events that are handled by the Places extension.
+exl-id: 98210ef4-5ff1-4792-b97b-2845ce02e78a
 ---
-
 # Places event reference {#places-event-reference}
 
 Here is a list of the events that are handled by the Places extension.
@@ -66,4 +66,3 @@ This event causes the Places extension to process a geofence entry or exit event
 ## Events dispatched by the Places extension
 
 This information is currently in progress.
-

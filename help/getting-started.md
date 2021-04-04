@@ -1,8 +1,8 @@
 ---
 title: Getting started
 description: Getting started with Places Service.
+exl-id: 1f0ac226-4993-495b-9d07-1e0ada7f19a7
 ---
-
 # Getting started {#getting-started}
 
 Here is a helpful video to get an overview of Places Services:

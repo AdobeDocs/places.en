@@ -1,9 +1,8 @@
 ---
 title: Read a library
 description: Read a library by using the Places REST API.
+exl-id: c9c5a862-beab-42a9-8e40-abf93da592ea
 ---
-
-
 # Read a library {#read-a-library}
 
 A GET method that returns the details for a library.
@@ -86,4 +85,3 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 >[!IMPORTANT]
 >
 >Replace `<LIBRARYID>`, `<API KEY>`, `<TOKEN>`, and `<ORGID>` with actual values.
-

@@ -1,8 +1,8 @@
 ---
 title: Create multiple POIs
 description: Use the batch APIs to create multiple POIs.
+exl-id: d1d6f7de-5914-432f-9d3c-17cf3cba784a
 ---
-
 # Create multiple POIs {#create-multiple-pois}
 
 A POST method that lets you create multiple POIs.

@@ -1,8 +1,8 @@
 ---
 title: Manage libraries in the Places Service UI
 description: Manage your libraries by using the Places Service UI.
+exl-id: 2fb999b4-854a-430f-bb89-4c786d1a89cc
 ---
-
 # Manage libraries {#manage-libraries-places-ui}
 
 A library is a collection of POIs. You can have up to 150,000 POIs in a library, and there can be up to 100 libraries per Experience Cloud organization.  
@@ -45,4 +45,3 @@ Libraries are defined by the following:
 1. In the top right side, click **[!UICONTROL ...]** > **[!UICONTROL Manage Libraries]**.
 1. Locate the library that you want to delete.
 1. Click **[!UICONTROL ...]** and select **[!UICONTROL Delete]**.
-

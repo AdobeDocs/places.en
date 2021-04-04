@@ -1,8 +1,8 @@
 ---
 title: Read a POI
 description: Read a POI by using the Places REST APIs.
+exl-id: 19eb73c4-5101-47a9-8c79-bc4790ecf472
 ---
-
 # Read a POI {#read-a-poi}
 
 A GET method that returns the details for a POI.
@@ -64,4 +64,3 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x
 >[!IMPORTANT]
 >
 >Replace `<POIID>`, `<API KEY>`, `<TOKEN>`, and `<ORIGIN>` with actual values.
-

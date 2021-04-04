@@ -1,8 +1,8 @@
 ---
 title: Get a library's rank
 description: Get a library's rank by using the Places REST API.
+exl-id: c0abedd0-5ff4-4a01-9f8d-e3d17ea53a97
 ---
-
 # Get a library's rank {#get-library-rank}
 
  A GET method that allows you to rank libraries.
@@ -36,4 +36,3 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/rank ' -H
 >[!IMPORTANT]
 >
 >Replace variables such as `<API KEY>`, `<TOKEN>`, and `<ORGID>` with actual values.
-

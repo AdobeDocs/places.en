@@ -1,8 +1,8 @@
 ---
 title: Delete a POI
 description: Delete a POI by using the Places REST APIs.
+exl-id: 0325eb3b-f9b2-4b21-bed8-e318e8072a69
 ---
-
 # Delete a POI {#delete-a-poi}
 
 A DELETE method that lets you delete a POI.
@@ -40,4 +40,3 @@ curl -X DELETE 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H
 >[!IMPORTANT]
 >
 >Replace `<POIID>`, `<API KEY>`, `<TOKEN>`, and `<ORGID>` with actual values.
-

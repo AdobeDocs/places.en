@@ -1,8 +1,8 @@
 ---
 title: Report on location data in Analytics Workspace
 description: This section provides information about how to report on location data in Analytics Workspace.
+exl-id: 45ca3c80-71b7-41de-9b00-645504061935
 ---
-
 # Report on location data in the Analytics Workspace {#places-in-workspace}
 
 This document shows an example of how to report on your location data in the Analytics Workspace. Each step will contain a high-level summary, with details provided by referencing other documentation pages. 

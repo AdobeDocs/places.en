@@ -1,8 +1,8 @@
 ---
 title: Test and validate Places Service
 description: This section provides information about how you can test and validate Places Service.
+exl-id: 8dad6619-566b-4aea-b29c-a89192a66441
 ---
-
 # Recommendations to test Places Service {#test-validate-loc-svc}
 
 Many customers and organizations will define POIs across the globe, so it is important to have a way to simulate and test how the Places Service interacts with your application. This information helps you understand how to test and validate the Places Service entries and exits that are being correctly triggered based on the defined POIs and a user's current location.

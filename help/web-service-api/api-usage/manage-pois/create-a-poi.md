@@ -1,8 +1,8 @@
 ---
 title: Create a POI
 description: Create a POI by using the Places REST APIs.
+exl-id: 0f5b5b40-11f0-4122-b3d5-c3853a6e8ca5
 ---
-
 # Create a POI {#create-a-poi}
 
 A POST method that lets you create a POI.

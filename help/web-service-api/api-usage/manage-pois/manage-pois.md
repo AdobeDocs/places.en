@@ -1,8 +1,8 @@
 ---
 title: Manage POIs overview
-description: Understand and work with POIs. 
+description: Understand and work with POIs.
+exl-id: 3e46481b-0fee-4b7b-a6ea-034b89c80d82
 ---
-
 # Manage POIs overview {#manage-pois}
 
 You can use the Places Service REST APIs to complete the following tasks:

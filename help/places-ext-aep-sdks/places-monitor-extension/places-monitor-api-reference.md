@@ -1,8 +1,8 @@
 ---
 title: Places Monitor API reference
 description: A list of the APIs for the Places Monitor.
+exl-id: aa382db1-05ca-4d91-9862-b2f97777bb3d
 ---
-
 # Places Monitor API reference {#places-api-reference}
 
 ## Register Places Monitor Extension

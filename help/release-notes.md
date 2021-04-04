@@ -1,8 +1,8 @@
 ---
 title: Release notes
 description: Release notes for Places Service.
+exl-id: 76da9548-4e32-4b23-9a15-7012973915f3
 ---
-
 # Release notes {#release-notes}
 
 ## July 8, 2020

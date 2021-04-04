@@ -1,8 +1,8 @@
 ---
 title: Manage existing POIs
 description: In the Places Service UI, you can edit, delete, or filter existing POIs.
+exl-id: a4cf28ae-1e3c-4724-bca3-ac1d0cd6da09
 ---
-
 # Manage existing POIs {#managing-existing-pois}
 
 POIs and libraries are created and managed in the Places database by using the Places UI.

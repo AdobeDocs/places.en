@@ -1,8 +1,8 @@
 ---
 title: Creating a rule for your Places Service property
-description: The Places SDK keeps track of the current location, monitors the configured POIs around the current location, and tracks the entry and exit events for these POIs. 
+description: The Places SDK keeps track of the current location, monitors the configured POIs around the current location, and tracks the entry and exit events for these POIs.
+exl-id: dd5aa7ac-55f9-44dc-8632-e483ef3b91a0
 ---
-
 # Create entry and exit rules {#create-entry-exit-rules}
 
 With the Places extension and the Places Monitor extensions installed in your mobile application, you can create rules in Adobe Experience Platform Launch that are triggered or conditioned location data including location entry and exit events. 

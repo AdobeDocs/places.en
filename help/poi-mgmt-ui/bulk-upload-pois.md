@@ -1,8 +1,8 @@
 ---
 title: Bulk upload POIs
 description: This section provides information about how to bulk upload your POIs.
+exl-id: 72704bfc-5837-4439-bdb2-e77ddf935639
 ---
-
 # Bulk upload of POIs {#bulk-upload-pois}
 
 The **Import POIs** button in the Places Service can be used to bulk upload new POIs using a CSV file. A sample spreadsheet template is provided to show which data columns are required and how to add optional custom metadata. 

@@ -1,8 +1,8 @@
 ---
 title: Using your own monitor
 description: You can also use your monitoring services and integrate with Places Service by using the Places Service extension APIs.
+exl-id: 8ca4d19b-0f23-4291-b335-af47f03179fa
 ---
-
 # Using your own monitor {#using-your-monitor}
 
 You can also use your monitoring services and integrate with Places Service by using the Places extension APIs.

@@ -1,8 +1,8 @@
 ---
 title: Update multiple POIs
 description: Use the batch APIs to update multiple POIs.
+exl-id: 194027fb-eafd-4207-9190-47125ebf3bc3
 ---
-
 # Update multiple POIs {#update-multiple-pois}
 
 A POST method that lets you update multiple POIs.

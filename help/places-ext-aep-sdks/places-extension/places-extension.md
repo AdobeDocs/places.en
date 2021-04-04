@@ -1,8 +1,8 @@
 ---
 title: Places extension
 description: The Places extension allows you to act based on the location of your users.
+exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
 ---
-
 # Places extension {#places-extension}
 
 The Places extension allows you to act based on the location of your users. This extension is the interface to the Places Query Service APIs. By listening for events that contain GPS coordinates and geofence region events, this extension dispatches new events that are processed by the Rules Engine. The Places extension also retrieves and delivers a list of the nearest POI for the app data that retrieves from the APIs. The regions returned by the APIs are stored in cache and persistence, which allows limited offline processing.

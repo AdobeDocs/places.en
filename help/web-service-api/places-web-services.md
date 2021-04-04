@@ -1,8 +1,8 @@
 ---
 title: Web Services API overview overview 
 description: Places Service is the set of services that makes it easier for Adobe customers to hydrate the Adobe Experience Cloud and Adobe Experience Platform solutions with location data and the right experience to the right person at the right time and in the right place.
+exl-id: 9e7358d1-3ba0-4304-aeb2-fed7162afb57
 ---
-
 # Web Services API overview {#places-web-services-api}
 
 Places Service is the set of services that makes it easier for Adobe customers to hydrate the Adobe Cloud Platform and Adobe Experience Platform solutions with location data and the right experience to the right person at the right time and in the right place.

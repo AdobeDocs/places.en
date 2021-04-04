@@ -1,8 +1,8 @@
 ---
 title: Add location context to Analytics requests
 description: This section provides information about how to add location context to Analytics requests.
+exl-id: bee7b6e3-a75b-4a07-b6e2-f93ce33aa042
 ---
-
 # Add location context to Analytics requests {#run-reports-aa-locserv-data}
 
 >[!IMPORTANT]

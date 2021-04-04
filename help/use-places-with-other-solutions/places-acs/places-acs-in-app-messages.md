@@ -1,8 +1,8 @@
 ---
 title: In-App messages with Places Service
 description: This section provides information about how to use Push messaging in Campaign Standard with In-App messages in Campaign Standard.
+exl-id: c80727b8-20c9-4ca0-9f2c-20ec646bb7fa
 ---
-
 # In-App messaging with Places Service {#in-app-messages-loc-service}
 
 This information helps you understand how you can use Places Service information to send In-App Messages or Local Notifications.

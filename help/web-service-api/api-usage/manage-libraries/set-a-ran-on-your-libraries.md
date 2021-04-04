@@ -1,8 +1,8 @@
 ---
 title: Set a rank on your libraries
 description: Set a rank on your libraries by using the Places REST API.
+exl-id: c922bddc-1587-4da8-acb4-c2d69ce11808
 ---
-
 # Set a rank on your libraries {#set-rank-on-libraries}
 
 A PUT method that allows you to set a rank order on all of your libraries.
@@ -42,4 +42,3 @@ curl -X PUT `'https://api-places.adobe.io/places/placesapi/v1/libraries/rank'` -
 >[!IMPORTANT]
 >
 >Replace variables such as `<API KEY>`, `<TOKEN>`, and `<ORGID>` with actual values.
-

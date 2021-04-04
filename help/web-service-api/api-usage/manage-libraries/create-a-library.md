@@ -1,8 +1,8 @@
 ---
 title: Create a library
 description: Create a library by using the Places REST API.
+exl-id: 155cc6e6-9254-4389-bb02-e526d15908f4
 ---
-
 # Create a library {#create-a-library}
 
 A POST method that lets you create a library.
@@ -42,4 +42,3 @@ curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/libraries' -H 'x-a
 >[!IMPORTANT]
 >
 >Replace variables such as `<API KEY>`, `<TOKEN>`, and `<ORGID>` with actual values.
-

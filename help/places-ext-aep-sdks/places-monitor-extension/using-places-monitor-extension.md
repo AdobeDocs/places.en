@@ -1,8 +1,8 @@
 ---
 title: Using the Places Monitor extension
 description: Information on how to install, configure, and use the Places Monitor extension.
+exl-id: 220a6ae7-525f-4c7f-a581-18596d097db4
 ---
-
 # Using the Places Monitor extension {#using-places-monitor-extension}
 
 To use the Places Monitor extension, complete the following tasks:

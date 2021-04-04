@@ -1,8 +1,8 @@
 ---
 title: Use Places Service without active region monitoring
 description: This section provides information about how use Places Service without active region monitoring.
+exl-id: 0ba7949a-447e-4754-9b45-945e58e29541
 ---
-
 # Use Places Service without active region monitoring {#use-places-without-active-monitoring}
 
 Use cases for your application might not require active region monitoring. Places Service can still be used to get your users' location data integrated with other Experience Platform products.

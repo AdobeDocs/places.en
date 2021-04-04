@@ -1,8 +1,8 @@
 ---
 title: Delete a library
 description: Delete a library by using the Places REST APIs.
+exl-id: ad45ea38-9e12-43d7-b05f-17d3e40abaf5
 ---
-
 # Delete a library {#delete-a-library}
 
 A DELETE method that lets you delete a library.
@@ -40,4 +40,3 @@ curl -X DELETE 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRA
 >[!IMPORTANT]
 >
 >Replace variables such as `<lIBRARYID>`, `<API KEY>`, `<TOKEN>`, and `<ORGID>`with actual values.
-

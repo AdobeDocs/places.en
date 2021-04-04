@@ -1,8 +1,8 @@
 ---
 title: Using metadata with POIs
 description: This section provides information and strategies about how to use metadata with POIs.
+exl-id: e669e560-a999-43ff-aeb4-06e6308b0d5c
 ---
-
 # Strategies for using metadata with POIs {#using-metadata-pois}
 
 In Places Service, when you create a a new POI, the only required elements are Name, Radius, Latitude and Longitude. For more information about creating a POI, see [Create a POI](/help/poi-mgmt-ui/create-a-poi-ui.md). If, however, you are only entering the minimum information, you will miss an opportunity to create additional value.

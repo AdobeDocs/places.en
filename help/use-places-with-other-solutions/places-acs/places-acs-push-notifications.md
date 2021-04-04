@@ -1,8 +1,8 @@
 ---
 title: Push notifications with Places Service
 description: This section provides information about how to use Places Service with push notifications in Campaign Standard.
+exl-id: 4b50f552-deb8-49cd-9221-fbbf33aaa5f9
 ---
-
 # Push Notifications with Places Service {#push-notifications}
 
 In this section, you will learn how to use historical geo-location information to target push notifications that are delivered through Adobe Campaign Standard. 

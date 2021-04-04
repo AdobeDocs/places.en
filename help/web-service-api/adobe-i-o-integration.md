@@ -1,8 +1,8 @@
 ---
 title: Adobe I/O integration overview
 description: Information about creating an Adobe I/O integration.
+exl-id: d7d31938-6c0e-40f8-a9d3-30af96043119
 ---
-
 # Integration overview and prerequisites {#integration-prereqs}
 
 This information shows you how to create an Adobe I/O and a Places Service integration.

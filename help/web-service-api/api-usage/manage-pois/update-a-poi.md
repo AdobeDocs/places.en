@@ -1,8 +1,8 @@
 ---
 title: Update a POI
 description: Update a POI by using the Places REST APIs.
+exl-id: f155d1d3-88a3-47bc-bffe-a35842a639e2
 ---
-
 # Update a POI {#update-a-poi}
 
 A PUT method that lets you update a POI.

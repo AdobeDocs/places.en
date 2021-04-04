@@ -1,8 +1,8 @@
 ---
 title: Use Places Service with Adobe Analytics
 description: This section provides information about how to use Places Service with Adobe Analytics.
+exl-id: d564934b-1ecc-452f-930a-2bcd1a8162ec
 ---
-
 # Use Places Service with Adobe Analytics {#places-with-aa}
 
 By using Places Service with Adobe Analytics, you can complete the following tasks:

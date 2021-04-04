@@ -1,8 +1,8 @@
 ---
 title: Using Places Service with Mobile Services for messaging
 description: This section shows you how to use Places Service with Mobile Services for messaging.
+exl-id: dfa6b8bb-6bf2-44eb-8bfc-87294807ec3b
 ---
-
 # Adobe Mobile Services {#places-mobile-services}
 
 Before you can use Mobile Services extension for messaging, review the following prerequisites:
@@ -51,5 +51,4 @@ You can run Mobile Service reports using Places Service data that is sent to Ado
 
 ![Report visualization](/help/assets/report-visualize.png)
 
-Additional flexibility in visualizing Places Service data is available in the Adobe Analytics interfaces.  
-
+Additional flexibility in visualizing Places Service data is available in the Adobe Analytics interfaces.

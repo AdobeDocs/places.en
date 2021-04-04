@@ -1,8 +1,8 @@
 ---
 title: Adobe Target
 description: This section provides information about how to use Places Service with Adobe Target.
+exl-id: 6ee91fca-ea48-4de2-8dcf-87981813c678
 ---
-
 # Use Places Service with Adobe Target {#places-target}
 
 This document assumes that you have the Places extension implemented in your application. If you need help implementing Places extension, see [Places extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md).

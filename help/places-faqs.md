@@ -1,8 +1,8 @@
 ---
 title: Frequently asked questions
 description: This topic provides additional information about some frequently asked questions.
+exl-id: cee9f447-5e50-4ed8-b37b-baecbc0e9b7b
 ---
-
 # Frequently asked questions
 
 Here is some information and frequently asked questions about Places Service.

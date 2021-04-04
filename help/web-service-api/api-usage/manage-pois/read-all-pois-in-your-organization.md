@@ -1,8 +1,8 @@
 ---
 title: Read all POIs in your organization
 description: Read all POIs in your organization by using the Places REST APIs.
+exl-id: 8068a2bc-ce1c-4f3b-8a0c-c38998c1c2e2
 ---
-
 # Read all POIs in your organization {#read-all-pois-org}
 
 A GET method that returns all POIs in your organization.

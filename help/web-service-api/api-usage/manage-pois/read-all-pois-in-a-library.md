@@ -1,8 +1,8 @@
 ---
 title: Read all POIs in a library
 description: Read all POIs in a library by using the Places REST APIs.
+exl-id: 08544909-661c-4a14-84e0-bacd0241a844
 ---
-
 # Read all POIs in a library {#read-all-pois-library}
 
 A GET method that returns all POIs in a library.
@@ -162,4 +162,3 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 >[!IMPORTANT]
 >
 >Replace '', `<API KEY>`, `<TOKEN>`, and `<ORGID>` with actual values.
-

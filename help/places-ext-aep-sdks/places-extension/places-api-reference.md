@@ -1,8 +1,8 @@
 ---
 title: Places API reference
 description: Information about the API references in Places.
+exl-id: ce1a113c-dee0-49df-8d2f-789ccc1c8322
 ---
-
 # Places API reference {#places-api-reference}
 
 Here is information about the API references in the Places extension:

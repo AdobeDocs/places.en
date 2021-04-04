@@ -1,8 +1,8 @@
 ---
 title: Update a library
 description: Update a library by using the Places REST API.
+exl-id: 37ca2be2-39e1-4f8e-87c2-ef4cb366db0d
 ---
-
 # Update a library {#update-a-library}
 
 A PUT method that lets you update a library.
@@ -42,4 +42,3 @@ curl -X PUT 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 >[!IMPORTANT]
 >
 >Replace variables such as `<lIBRARYID>`, `<API KEY>`, `<TOKEN>`, and `<ORGID>` with actual values.
-

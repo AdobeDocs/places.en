@@ -1,8 +1,8 @@
 ---
 title: Headers and parameters
 description: Headers and parameters that are available in the Places Service REST APIs.
+exl-id: 3c7e76de-f0ff-4966-a3ec-7f64d819c140
 ---
-
 # Headers and parameters {#headers-and-parameters}
 
 Here are the details about the headers and parameters that are available in the Places Service REST API:
@@ -51,4 +51,3 @@ Here are the details about the headers and parameters that are available in the 
 | `lib_id` | ID of the library the POI is in | n/a | n/a | both, required | `"lib_id": "ac7a0b25-c6c2-43ba-bbc6-2b1777b80fe9"` |
 
 * If the parameter value is not included, the value is set to `empty` in database. If the existing key/value pair is not included, the key/value pair is removed for that POI in the database.
-

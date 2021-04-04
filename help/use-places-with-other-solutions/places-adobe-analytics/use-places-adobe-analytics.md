@@ -1,8 +1,8 @@
 ---
 title: Send POI entry and exit data to Analytics
 description: This section provides information about how to send POI entry and exit data to Analytics.
+exl-id: 69e96261-4902-47dd-a930-a8f3d19c179c
 ---
-
 # Send POI entry and exit data to Analytics {#places-data-analytics}
 
 

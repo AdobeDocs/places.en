@@ -1,9 +1,8 @@
 ---
 title: Overview
 description: Understanding and using Query APIs.
+exl-id: cc61a49c-1cf2-407f-b81a-3d38fcb622cc
 ---
-
-
 # Query APIs
 
 A GET method that allows you to query the POIs that are closest to the caller.

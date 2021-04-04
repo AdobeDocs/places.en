@@ -1,6 +1,7 @@
 ---
 title: Manage libraries
 description: Managing the Places Service REST API libraries.
+exl-id: fe637239-7137-4d22-b8b5-5695d8222ffe
 ---
 # Manage libraries overview {#manage-libraries}
 

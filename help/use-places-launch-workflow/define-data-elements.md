@@ -1,8 +1,8 @@
 ---
 title: Define data elements
 description: This section provides information about how to create, use, and publish data elements in Experience Platform Launch for Places.
+exl-id: 57e88a37-0b0b-4064-ab72-382a36a0d01d
 ---
-
 # Define a data element {#define-data-elements}
 
 The following information helps you understand data elements and how to create and publish them. 

@@ -1,6 +1,7 @@
 ---
 title: Gain access to Places Service 
 description: This section provides information about how to add a user to Places Service and Experience Platform Launch, so that the user can access Places Service.
+exl-id: f388945e-cf26-4694-9697-9fe564ae4b69
 ---
 # Gain access to Places Service {#adding-user-launch-places}
 

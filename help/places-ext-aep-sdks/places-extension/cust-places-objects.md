@@ -1,7 +1,7 @@
 ---
 title: Custom Places objects
+exl-id: deb16ba3-bd59-42b1-85ec-0f7de17f91f8
 ---
-
 # Custom Places objects {#places-objects}
 
 Here are the custom native classes that will be used with the Places APIs:

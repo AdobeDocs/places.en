@@ -1,8 +1,8 @@
 ---
 title: Places Service
-description: Places Service is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience. 
+description: Places Service is an important context for understanding the engagement of mobile users. By using this context, mobile app developers can enhance the app design and make it a more personalized and engaging experience.
+exl-id: 7369176f-c072-437a-9ee3-b463c5ff1d12
 ---
-
 # Places Service {#home}
 
 !["Places Service"](/help/assets/places-service-header.png)

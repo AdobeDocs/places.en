@@ -1,8 +1,8 @@
 ---
 title: Create a POI
 description: Create a POI using the Places Service UI.
+exl-id: 16df61e3-5a18-4de4-a284-a5d394dc73af
 ---
-
 # Create a POI {#create-a-poi}
 
 A point of interest (POI) is a location or a point on a map that is of importance to your organization or company. It can include locations like cafes, restaurants, retail locations, stadiums and so on. Companies can define points of interest to help personalize a user's mobile experience when they have entered a geo-fenced region for a particular point of interest. Beyond personalized experiences, companies may also create points of interest to help them analyze and better understand location traffic patterns. A large retail chain may choose to create POIs for all of their store locations to gain analytics on user's that have their mobile application AND visit a store location.  

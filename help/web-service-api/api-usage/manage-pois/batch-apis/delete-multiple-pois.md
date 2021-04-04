@@ -1,9 +1,8 @@
 ---
 title: Delete multiple POIs
 description: Use the batch APIs to delete multiple POIs.
+exl-id: f170b722-e6f4-42a2-b3a6-1bf56965eb17
 ---
-
-
 # Delete multiple POIs {#delete-multiple-pois}
 
 A POST method that lets you delete multiple POIs.

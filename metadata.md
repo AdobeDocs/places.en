@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-product: adobe experience platform
+product: places service
 solution: Experience Platform, Data Collection
 type: Documentation
 solution-title: Learn & Support

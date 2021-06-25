@@ -9,7 +9,7 @@ The Places Monitor extension handles the interactions with the operating system 
 
 The Monitor extension is optional, because some customers might already be monitoring regions with the operating system. If this is the case, ensure that you add the Places extension APIs to receive the nearest POIs from the Places Service database and to also pass the entry and exit events so that the appropriate actions can be taken.
 
-# Places Monitor Deprecation
+## Places Monitor Deprecation
 
 On August 31, 2021, the Places Monitor extension for the Adobe Experience Platform Mobile SDKs will be deprecated. The Places Monitor extension will not receive further updates or support beyond August 31st.
 

@@ -1,7 +1,7 @@
 ---
 cloud: Experience Cloud
 product: places service
-solution: Experience Platform, Data Collection
+solution: Data Collection
 type: Documentation
 solution-title: Learn & Support
 solution-hub-url:  https://helpx.adobe.com/support/experience-cloud.html

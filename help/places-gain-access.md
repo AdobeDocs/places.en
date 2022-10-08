@@ -5,178 +5,81 @@ exl-id: f388945e-cf26-4694-9697-9fe564ae4b69
 ---
 # Gain access to Places Service {#adding-user-launch-places}
 
-You can access the Places Service from the quick access menu on [Adobe Experience Cloud home](https://experience.adobe.com). 
-If your user ID has access you will see the Places Service icon as indicated below:
+Places Service is now available within the Data Collection UI. You can access Data Collection from the quick access menu on [Adobe Experience Cloud home](https://experience.adobe.com). 
 
 ![quick access menu](/help/assets/quickaccess.png)
 
-You can also access the Places Service from the Adobe Experience Platform menu:
+You can also access the Data Collection from the Adobe Experience Platform menu:
 
 ![Experience Platform menu](/help/assets/solutionaccessmenu.png)
 
-If you do not see the Places Service in either of these menus, contact an administrator in your organization to add your user ID to the Places Core Service in the Admin Console. 
+If your user ID has access you will see the Places Service icon in the left panel under Data Management in Data Collection as indicated below:
 
-## Adding a user to Places Service and Experience Platform Launch
+![Data Collection left panel](/help/assets/places_in_data_collection.png)
 
-To allow users to access the [Experience Platform Launch UI](https://launch.adobe.com), they need to be added to Places Core Service in the Admin Console as a user. To allow users to have access to Experience Platform Launch, configure mobile properties, and use Places with the Adobe Experience Platform SDK, they need to be added to Experience Platform Launch in the Admin Console and be given the following permissions for Experience Platform Launch:
+If you do not see the Places Service in this location, contact an administrator in your organization to add your user ID to Adobe Experience Platform in the Admin Console. 
 
-* All Property Rights:
-  * Develop
+## Adding a user to access Places Service and Experience Adobe Experience Platform Data Collection
+
+Places is now included with Adobe Experience Platform. To allow users to access the [Places Service](https://experience.adobe.com/#/data-collection/places), they need to be added to Adobe Experience Platform in the Admin Console as a user. To allow users to have access to Experience Platform Data Collection with the required permissions to configure mobile properties and use Places with the Adobe Experience Platform SDK, they need to also be added to Adobe Experience Platform Data Collection in the Admin Console and be given the following permissions for Adobe Experience Platform Data Collection:
+
+* All permissions under Property Rights:
   * Approve
+  * Develop
+  * Edit Property
+  * Manage Environments
+  * Manage Extensions
   * Publish
-  * Manage extensions
-  * Manage environments
 * Manage Properties permission under Company Rights 
 
-If this is the first time you are adding a user, complete the following steps to add users to Experience Platform Launch and Places Service. If you have added users before, multiple profiles might be displayed, so ensure that you select the correct profile.
+If this is the first time you are adding a user, complete the following steps to add users to Adobe Experience Platform Data Collection and Adobe Experience Platform. If you have added users before, multiple profiles might be displayed, so ensure that you select the correct profile.
 
 >[!IMPORTANT]
 >
 >Only org administrators can access the Admin Console and add the users.
 
-### 1. Verify that Places Service and Experience Platform Launch are provisioned 
+### 1. Verify that Adobe Experience Platform and Adobe Experience Platform Data Collection are provisioned 
 
-1. Log in to your Experience Cloud organization.
-1. In the top-right side, click the Experience Cloud shell switcher.
+1. Log in to your Experience Cloud organization, [Adobe Experience Cloud home](https://experience.adobe.com).
+1. In the top-right side, click the Experience Cloud shell switcher to reveal a drop down menu.
 
     ![shell switcher](/help/assets/places_shell_switcher1.png)
 
-1. Under **[!UICONTROL Platform]**, click **[!UICONTROL Administration]**.
+1. At the bottom of the list, click **[!UICONTROL Admin Console]**. (A link to the **[!UICONTROL Admin Console]** can also be found in the Quick access section).
 
-   If you do not see **[!UICONTROL Administration]** in the list, you are not an admin. You must contact your org admin to complete this procedure.
+   If you do not see **[!UICONTROL Admin Console]** in the list, you are not an admin. You must contact your org admin to complete this procedure.
 
-1. In the Experience Cloud Administration page, on the **[!UICONTROL Admin Console]** card, click **[!UICONTROL Take me there]**.
+1. In the Admin Console, if you have access to several organizations, verify that the correct organization is selected in the top right of the page. 
 
-1. In the Admin Console, if you have access to several organizations, verify that the correct organization is selected in the top right side of the page. 
-
-    This is the organization to which you will add your users. If the correct org has not been selected, click on the org and select the org from the drop-down list. 
+    This is the organization to which you will add your users. If the correct organization has not been selected, click on the organization and select the correct organization from the drop-down list. 
 
     >[!IMPORTANT]
     >
-    >If you do not have access to an organization, it means that you do not have admin access to that organization.
+    >If the desired organization is not in the drop down list, it means that you do not have admin access to that organization.
 
-1. Verify that the cards for **[!UICONTROL Adobe Experience Platform Launch]** and **[!UICONTROL Places Core Services]** are displayed.
+1. In the Admin Console, click on the Products tab and verify that the cards for **[!UICONTROL Adobe Experience Platform Data Collection]** and **[!UICONTROL Adobe Experience Platform]** are displayed.
 
     ![](/help/assets/places_provisioned1.png)
 
-    If they are displayed, Places Service and Experience Platform Launch have been provisioned for your organization. If they are not displayed, they need to be provisioned for your organization.
+    These 2 products are automatically provisioned to all organizations, so they should be present.
 
    
-### 2. Set up the profile and add the permissions
+### 2. Add user to these products
+#### Add user to provide access to Places Service UI
+1. From the Products tab, click on the **[!UICONTROL Adobe Experience Platform]** card.
+2. A user can be added to any profile within **[!UICONTROL Adobe Experience Platform]** to gain access to Places, no specific permissions need to be set.
+3. Choose a profile (if there is more than one) and click on it to open it. 
+4. Click the blue **Add User** button, fill in the user with their AdobeID and name, then click Save to complete the addition.
+#### Add user to Data Collection
+1. From the Products tab, click on the **[!UICONTROL Adobe Experience Platform Data Collection]** card.
+2. By default a profile named **Default Data Collection All Access** will have been created. Adding a user to this profile will ensure they have the proper permissions to work with Places Service and Data Collection. If a different profile is chosen, ensure the permissions are included that are mentioned above.
+3. Choose a profile (if there is more than one) and click on it to open it.
+4. Click the blue **Add User** button, fill in the user with their AdobeID and name, then click Save to complete the addition.
+#### Add a user as a developer for Places Service.
+For users who also need access to the Places Service REST API, you need to add them as a Developer.
+1. From the Products tab, click on the **[!UICONTROL Adobe Experience Platform]** card.
+2. If the user was already added to **[!UICONTROL Adobe Experience Platform]** card via the instructions above, choose the same previously used profile and click on it.
+3. Within the profile, click on the **Developers** tab
+4. Click the blue **Add Developer** button, fill in the user with their AdobeID and name, then click Save to complete the addition.
 
-1. Set up a Experience Platform Launch profile, which allows the users who were added to the profile, use Experience Platform Launch and its mobile properties with the Experience Platform SDK.
-
-   a. In the menu bar, click **[!UICONTROL Product]**.
-
-   b. In the left pane, in the list of products, click **[!UICONTROL Adobe Experience Platform Launch]**.
-
-     * The Experience Platform Launch profile(s) appear on the right.
-     * Experience Platform Launch has a default profile called *Launch - (org name)* . 
-  
-       If you previously added users to Experience Platform Launch, you might see multiple profiles listed.
-
-1. Select the correct profile:
-
-   a. Click on the name of the default profile.
-
-   b. Click the **[!UICONTROL Permissions]** tab.
-
-   c. Click **[!UICONTROL Edit]** next to **[!UICONTROL Property Rights]**.
-
-   d. In the left pane, click **[!UICONTROL + Add all]**.
-
-      This step moves all of the available permissions to the included permissions list.
-
-   e. Click **[!UICONTROL Company Rights]**.
-
-   f. In the left pane, click **[!UICONTROL + Manage Properties]**.
-
-   g. Click **[!UICONTROL Save]**.
-
->[!IMPORTANT]
->
->For Places Service, there is a default profile, but you do not have to add any permissions. 
-
-You have successfully added permissions to the profile that you created.
-
-### 3. Add a user or a developer to your Places Service and Experience Platform Launch profiles
-
-You can add a user and/or a developer to your Places Service and Experience Platform Launch profiles.
-
-### Add a user
-
-To add a user to your Places Service and Experience Platform Launch profiles:
-
-1. Add a user to the Experience Platform Launch profile.
-
-   a. In the menu bar, click **[!UICONTROL Overview]**.
-
-   b. On the **[!UICONTROL Adobe Experience Platform Launch]** card, verify the following:
-
-   * Two dots are displayed at the bottom of the card.
-   * The dot on the left is black.
-
-     If the dot on the right side is black, you can only add developers. To add a user, click the dot on the left.
-
-   c. Click **[!UICONTROL + Add Users]**.
-
-   d. Enter the user’s Adobe ID.
-
-   e. Complete one of the following steps:
-
-      * If you are adding a new user, click **[!UICONTROL New user]**, and enter the user’s first and last name.
-      * If you are adding an existing user, click the user’s name that is displayed.
-
-   f. In the **[!UICONTROL Please select a profile for this product]** drop-down list, select the profile that you edited earlier.
-
-   g. Click **[!UICONTROL Save]**.
-
-1. Add a user to **[!UICONTROL Places Core Services]**.
-
-   >[!TIP]
-   >
-   >Currently, all Places Service users have the same permissions, so you do not need to edit the permissions.
-
-   a. On the **[!UICONTROL Places Core Services]** card, verify the following:
-
-   * Two dots are displayed at the bottom of the card.
-   * The dot on the left is black.
-
-   b. Click **[!UICONTROL + Assign Users]**.
-
-   c. Enter the user’s Adobe ID.
-
-   d. Complete one of the following steps:
-
-   * If you are adding a new user, click **[!UICONTROL New user]**, and enter the user’s first and last name.
-   * If you are adding an existing user, click the user’s name that is displayed.
-
-   e. In the **[!UICONTROL Please select a profile for this product]** drop-down list, select the Places profile.
-
-   f. Click **[!UICONTROL Save]**.
-
-### Add a developer
-
-For users who also need access to the Web Service API, you need to add them as a Developer.
-
-To add a developer:
-
-1. On the **[!UICONTROL Places Core Services]** card, verify the following:
-
-   * Two dots are displayed at the bottom of the card.
-   * Click the dot on the right so **[!UICONTROL Assign Developers]** appears at the bottom of the card.
-
-1. Click **[!UICONTROL + Assign Developers]**.
-
-1. Enter the user’s Adobe ID.
-
-1. Complete one of the following steps:
-
-     * If you are adding a new user, click **[!UICONTROL New user]** and enter the user’s first and last name.
-     * If you are adding an existing user, click the user’s name that is displayed.
-
-1. In the **[!UICONTROL Please select a profile for this product]** drop-down list, select the Places Service profile.
-
-1. Click **[!UICONTROL Save]**.
-
-Users receive an email that notifies them that they have access to Experience Platform Launch. They can can log in to the [Experience Platform Launch](https://launch.adobe.com) or the [Places Service](https://places.adobe.com) UIs for this organization. If you complete step 4 in the **[!UICONTROL Add a developer]** procedure, the user can also log in to the [Adobe I/O console](https://console.adobe.io) to create a Places integration and use the Places REST API.
+After completion of the above steps, the user will receive an email that notifies them they have access to **[!UICONTROL Adobe Experience Platform]** and **[!UICONTROL Adobe Experience Platform Data Collection]**. They can then log in to the [Adobe Experience Cloud](https://experience.adobe.com) for this organization and access Places Service and Data Collection. If you also complete the steps **[!UICONTROL Add a developer]**, the user can also log in to the [Adobe Developer Console](https://developer.adobe.com/console/home) to create a Project which would provide access to the Places Service REST API.

@@ -9,7 +9,7 @@ Places Service is now available within the Data Collection UI. You can access Da
 
 ![quick access menu](/help/assets/quickaccess.png)
 
-You can also access the Data Collection from the Adobe Experience Platform menu:
+You can also access Data Collection from the Adobe Experience Platform menu:
 
 ![Experience Platform menu](/help/assets/solutionaccessmenu.png)
 

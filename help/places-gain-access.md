@@ -65,17 +65,23 @@ If this is the first time you are adding a user, complete the following steps to
 
    
 ### 2. Add user to these products
+
 #### Add user to provide access to Places Service UI
+
 1. From the Products tab, click on the **[!UICONTROL Adobe Experience Platform]** card.
 2. A user can be added to any profile within **[!UICONTROL Adobe Experience Platform]** to gain access to Places, no specific permissions need to be set.
 3. Choose a profile (if there is more than one) and click on it to open it. 
 4. Click the blue **Add User** button, fill in the user with their AdobeID and name, then click Save to complete the addition.
+
 #### Add user to Data Collection
+
 1. From the Products tab, click on the **[!UICONTROL Adobe Experience Platform Data Collection]** card.
 2. By default a profile named **Default Data Collection All Access** will have been created. Adding a user to this profile will ensure they have the proper permissions to work with Places Service and Data Collection. If a different profile is chosen, ensure the permissions are included that are mentioned above.
 3. Choose a profile (if there is more than one) and click on it to open it.
 4. Click the blue **Add User** button, fill in the user with their AdobeID and name, then click Save to complete the addition.
+
 #### Add a user as a developer for Places Service.
+
 For users who also need access to the Places Service REST API, you need to add them as a Developer.
 1. From the Products tab, click on the **[!UICONTROL Adobe Experience Platform]** card.
 2. If the user was already added to **[!UICONTROL Adobe Experience Platform]** card via the instructions above, choose the same previously used profile and click on it.

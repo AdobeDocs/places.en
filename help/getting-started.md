@@ -39,9 +39,16 @@ Points of Interest (POI) are geo-fences that you create for your organizations, 
   For more information, see [Web Service API](/help/web-service-api/places-web-services.md).
 
 
-### 3. Configure the Places extension and Places Monitor extension
+### 3. Configure the Places extension
 
-For more information about configuring the Places extension and Monitor extension, see the following information:
+For more information about configuring the Places extension, see the following information:
 
 * [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md)
-* [Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
+
+### 4. (Optional) Implement a region monitoring solution
+
+If you plan to do active region monitoring, you will need to implement directly with operating system. For more information, see the following documents:
+
+* iOS - [CoreLocation documentation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions) 
+
+* Android - [Location documentation](https://developer.android.com/training/location/geofencing)

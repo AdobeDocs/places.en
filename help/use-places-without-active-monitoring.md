@@ -13,7 +13,7 @@ The developer will collect the device's location using the APIs provided by the 
 
 >[!TIP]
 >
->If your app's use cases require active region monitoring, see [Using the Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
+>If your app's use cases require active region monitoring, see [Use Places Service with your own monitoring solution](/help/using-your-own-monitor.md).
 
 To use Places Service without active region monitoring:
 

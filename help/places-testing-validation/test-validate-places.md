@@ -11,7 +11,7 @@ Since environmental variables can be a factor in location signal and accuracy, w
 
 >[!IMPORTANT]
 >
->This plan assumes that POIs have been created in the [Places Service UI](https://places.adobe.com) and the latest versions of the the Places extension and Places Monitor extension are installed and correctly configured. For more information, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md) and [Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
+>This plan assumes that POIs have been created in the [Places Service UI](https://places.adobe.com) and the latest versions of the the Places extension is installed and correctly configured. If doing active region monitoring, it also assumes a region monitoring solution is implemented. For more information, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md), [CoreLocation documentation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions) for iOS, or [Android location documentation](https://developer.android.com/training/location/geofencing).
 
 | Step | Description | Expected Result |
 |--- |--- |--- |
@@ -19,13 +19,13 @@ Since environmental variables can be a factor in location signal and accuracy, w
 | 1a | Confirm location updates are configured in iOS. Also ensure that you have the appropriate plist keys setup in iOS to request user permission to track location. For more information, see [Enable location updates in the background.](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#enable-location-updates-background) | Confirmed |
 | 2 | Confirm which monitoring mode is set for iOS. The continuous mode allows for greater accuracy and persistence but also more heavily drains battery life. For more information, see [Monitoring Mode (iOS only).](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.html#monitoring-mode-ios-only)| Significant Changes or Continuous |
 | 3 | If using more than one POIs library, confirm that the appropriate libraries have been selected in the Places extension for Experience Platform Launch. | Confirmed |
-| 4 | Confirm that the latest versions of Mobile Core and Places/Places Monitor extensions have been bundled with the app via Gradle or CocoaPods.| Confirmed - for more information on recent updates see the [release notes.](/help/release-notes.md) |
+| 4 | Confirm that the latest versions of Mobile Core and Places extensions have been bundled with the app via Gradle or CocoaPods.| Confirmed - for more information on recent updates see the [release notes.](/help/release-notes.md) |
 | 5 | Confirm that the correct environments are configured for testing. The Launch environment ID should match your Launch development environment. |  Confirmed |
 | 6 | Create GPX files for each POI that you want to test. GPX files can be used in local development environment to simulate a location entry. For information about creating and using GPX files, see the following: <br>[GPX files for iOS Simulator [closed]](https://stackoverflow.com/questions/17292783/gpx-files-for-ios-simulator)<br>[https://mapstogpx.com/mobiledev.php](https://mapstogpx.com/mobiledev.php)<br>[LOCATION TESTING IN MOBILE APPS](https://qacumtester.wordpress.com/2014/02/27/location-testing-in-mobile-apps/) | GPX files are created and loaded in the app project. |
 | 7 | Without doing anything else, you should be able to launch the application from Android Studio or XCode and see the appropriate alert to request access for the tracking location. Click the *Always Allow* permission.<br><br>We recommend that you use a real device that is connected to your computer instead of using device simulator. | Location request prompt should display on application loaded through IDE |
-| 8 | Once Location permission has been accepted. The Places SDK will to retrieve the current location of the device and the Places Monitor extension will start monitoring the 20 closest POIs from the current location | See the log sample under the table. |
+| 8 | Once Location permission has been accepted. The Places SDK will to retrieve the current location of the device and the region monitoring code should start monitoring the 20 closest POIs from the current location | See the log sample under the table. |
 | 9 | Switching between different locations in XCode or Android studio should produce entry events for specific POIs. The below logs are expected on entry to a POI. | See the log sample under the table.|
-| 10 | After you see the Places Monitor find nearby POIs, you should  test by sending location pings out. In Launch, create a new rule that uses the Places extension to trigger based on a geo-fence entry. Then create a new action by using Mobile Core to send a Postback. Creating a Slack Webhook app helps you see location entries and exits. For information on creating a Slack Webhook app see [Sending messages using Incoming Webhooks.](https://api.slack.com/messaging/webhooks)|  |
+| 10 | After the region monitor finds nearby POIs, you should  test by sending location pings out. In Launch, create a new rule that uses the Places extension to trigger based on a geo-fence entry. Then create a new action by using Mobile Core to send a Postback. Creating a Slack Webhook app helps you see location entries and exits. For information on creating a Slack Webhook app see [Sending messages using Incoming Webhooks.](https://api.slack.com/messaging/webhooks)|  |
 | 10a | In Launch, ensure that you added data elements for the Places extension including the following: <br>Current POI name<br>Current POI lat<br>Current POI long<br>Last Entered name<br>Last Entered lat<br>Last Entered long<br>Last Exited name<br>Last Exited lat<br>Last Exited long<br>Timestamp |  |
 | 10b | Create a new rule with an Event = Places → Enter POI |  |
 | 10c | Create an an action = Mobile Core → Postback |  |
@@ -33,7 +33,7 @@ Since environmental variables can be a factor in location signal and accuracy, w
 | 10e | The post body would be similar to: `{text: User is in POI -  {%%Last Entered POI Name%%} in {%%Last Entered POI City%%} additional information: Radius:{%%Last Entered POI Radius%%} Timestamp: {%%timestamp%%}}`. <br>Ensure that you use the specific data elements that you created here. |  |
 | 10f | Ensure that you publish all of the new data element and rule changes in Launch. (You should select a working dev library in the upper right of the Launch interface.)|  |
 | 11 | Launch and test your application again by flipping between the GPX locations in the developer IDE. | You should now see Slack notifications showing entries for each POI as you select different locations in your development environment. |
-|  | **QUICK SUMMARY POINT**<br>All of this testing can be conducted locally without having to go to a specific POI location. Validation testing helps ensure that your application is correctly configured and has received the correct permissions for the location. <br><br>This validation also gives you confidence that the defined POIs are working correctly with the Places Monitor extension.  After this step, we will begin to test messaging in Campaign to see if the proper messages appear based on POI entries and exits. |  |
+|  | **QUICK SUMMARY POINT**<br>All of this testing can be conducted locally without having to go to a specific POI location. Validation testing helps ensure that your application is correctly configured and has received the correct permissions for the location. <br><br>This validation also gives you confidence that the defined POIs are working correctly with your region monitoring implementation.  After this step, we will begin to test messaging in Campaign to see if the proper messages appear based on POI entries and exits. |  |
 |  | **Testing Adobe Campaign Standard In-App Messaging with Places Service.** |  |
 | 12 | On the main Campaign dashboard configure a new In-App-Message (type = broadcast) |  |
 | 12a | In triggers, select **Places event type - Entry as the trigger**. |  |
@@ -69,28 +69,14 @@ Since environmental variables can be a factor in location signal and accuracy, w
   **iOS**
 
    ```
-   [AdobeExperienceSDK DEBUG <com.adobe.placesMonitor>]: Authorization status changed: Always
    [AdobeExperienceSDK DEBUG <Places>]: Requesting 20 nearby POIs for device location (<lat>, <longitude>)
-   [AdobeExperienceSDK DEBUG <Places>]: Response from Places Query Service contained <n> nearby POIs
-   [AdobeExperienceSDK DEBUG <com.adobe.placesMonitor>]: Received a new list of POIs from Places: (
-   <ACPPlacePoi: 0x600002b75a40> Name: <poi name>; ID:<poi id>; Center: (<lat>, <long>); Radius: <radius>
-   ..
-   ..)   
+   [AdobeExperienceSDK DEBUG <Places>]: Response from Places Query Service contained <n> nearby POIs   
    ```
 
   **Android**
 
    ```
-   PlacesMonitor - All location settings are satisfied to monitor location
-   PlacesMonitor - PlacesMonitorInternal : New location obtained: <latitude> <longitude> Attempting to get the near by pois
-   PlacesExtension - Dispatching nearby places event with n POIs
-   PlacesMonitor - Attempting to Monitor POI with id <poi id> name <poi name> latitude <lat> longitude <longitude>
-   PlacesMonitor - Attempting to Monitor POI with id <poi id> name <poi name> latitude <lat> longitude <longitude>
-   PlacesMonitor - Attempting to Monitor POI with id <poi id> name <poi name> latitude <lat> longitude <longitude>
-   ...
-   ...
-   PlacesMonitor - Successfully added n fences for monitoring
-   
+   PlacesExtension - Dispatching nearby places event with n POIs   
    ```
 
 **Step 9 :** Expected iOS and Android logs during an event

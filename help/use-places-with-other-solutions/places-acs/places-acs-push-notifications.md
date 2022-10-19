@@ -23,7 +23,7 @@ Before you begin, complete the following tasks:
 
 ## Create data elements in Experience Platform Launch
 
-After verifying that the Places extension and Places Monitor extension are working correctly in your application, you need to create data elements in Experience Platform Launch. Data elements allow you to read the information that was provided by the extensions coming through the Mobile SDK event hub and act as an alias to retrieve data from the client application. To retrieve data from the Places extensions and send the Places Service information to Campaign, you need to create a few data elements.
+After verifying that the Places extension and a region monitoring solution ([CoreLocation documentation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions) for iOS, or [Android location documentation](https://developer.android.com/training/location/geofencing)) are working correctly in your application, you need to create data elements in Experience Platform Launch. Data elements allow you to read the information that was provided by the extensions coming through the Mobile SDK event hub and act as an alias to retrieve data from the client application. To retrieve data from the Places extensions and send the Places Service information to Campaign, you need to create a few data elements.
 
 To create a data element:
 

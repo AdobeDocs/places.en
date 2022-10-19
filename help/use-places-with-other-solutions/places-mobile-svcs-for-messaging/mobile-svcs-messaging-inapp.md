@@ -23,7 +23,7 @@ Here is a list of the available In-app messaging types:
 * Alert
 * Local notifications
 
-These types are in-app messages because they are triggered by the SDK. Local notifications look and feel like push notifications because they appear when the app is in the background. These notifications also deliver real-time notifications as users enter or exit your POIs while the app is in the background. For more information see [Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
+These types are in-app messages because they are triggered by the SDK. Local notifications look and feel like push notifications because they appear when the app is in the background. These notifications also deliver real-time notifications as users enter or exit your POIs while the app is in the background. 
 
 ### Prerequisites
 

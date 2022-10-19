@@ -271,7 +271,7 @@ iOS Places Monitor 1.0.0
 
 Initial release of the Places Monitor for iOS.
 
-The Places Monitor manages the OS-level Location APIs and communicates directly with the Places extension. With both extensions installed, customers can have out-of-the-box region monitoring in their application. For more information about the Places Monitor, see [Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
+The Places Monitor manages the OS-level Location APIs and communicates directly with the Places extension. With both extensions installed, customers can have out-of-the-box region monitoring in their application. 
 
 ## February 28, 2019
 

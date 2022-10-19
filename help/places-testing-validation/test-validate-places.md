@@ -15,9 +15,9 @@ Since environmental variables can be a factor in location signal and accuracy, w
 
 | Step | Description | Expected Result |
 |--- |--- |--- |
-| 1 | Confirm that the proper manifest keys have been entered for Android to grant access to track location. For more information, see [Add permissions to the manifest](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#add-permissions-to-the-manifest). | Confirmed |
-| 1a | Confirm location updates are configured in iOS. Also ensure that you have the appropriate plist keys setup in iOS to request user permission to track location. For more information, see [Enable location updates in the background.](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#enable-location-updates-background) | Confirmed |
-| 2 | Confirm which monitoring mode is set for iOS. The continuous mode allows for greater accuracy and persistence but also more heavily drains battery life. For more information, see [Monitoring Mode (iOS only).](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.html#monitoring-mode-ios-only)| Significant Changes or Continuous |
+| 1 | Confirm that the proper manifest keys have been entered for Android to grant access to track location. | Confirmed |
+| 1a | Confirm location updates are configured in iOS. Also ensure that you have the appropriate plist keys setup in iOS to request user permission to track location. | Confirmed |
+| 2 | Confirm which monitoring mode is set for iOS. The continuous mode allows for greater accuracy and persistence but also more heavily drains battery life. | Significant Changes or Continuous |
 | 3 | If using more than one POIs library, confirm that the appropriate libraries have been selected in the Places extension for Experience Platform Launch. | Confirmed |
 | 4 | Confirm that the latest versions of Mobile Core and Places extensions have been bundled with the app via Gradle or CocoaPods.| Confirmed - for more information on recent updates see the [release notes.](/help/release-notes.md) |
 | 5 | Confirm that the correct environments are configured for testing. The Launch environment ID should match your Launch development environment. |  Confirmed |

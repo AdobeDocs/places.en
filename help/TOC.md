@@ -52,10 +52,6 @@ user-guide-description: Places Service is a geo-location service that enables mo
     + [Places API reference](places-ext-aep-sdks/places-extension/places-api-reference.md)
     + [Places event reference](places-ext-aep-sdks/places-extension/places-event-ref.md)
     + [Custom Places objects](places-ext-aep-sdks/places-extension/cust-places-objects.md)
-  + Places Monitor extension {#places-monitor-extension}
-    + [Places Monitor extension](places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
-    + [Using the Places Monitor extension](places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)
-    + [Places Monitor API reference](places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.md)
 + [Use Places Service with your own monitoring solution](using-your-own-monitor.md)
 + [Use Places Service without active region monitoring](use-places-without-active-monitoring.md)
 + Use Places Service as part of the Experience Platform Launch workflow {#use-places-launch-workflow}

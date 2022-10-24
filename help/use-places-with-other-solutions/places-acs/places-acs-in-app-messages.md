@@ -18,7 +18,7 @@ Before you begin, complete the following tasks:
 
 * [Create a POI](/help/poi-mgmt-ui/create-a-poi-ui.md) in the Places Service POI management interface.
 
-* Install and configure the [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md) and [Places Monitor extensions](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md) in your mobile application.
+* Install and configure the [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md) and a region monitoring solution ([CoreLocation documentation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions) for iOS, or [Android location documentation](https://developer.android.com/training/location/geofencing)) in your mobile application.
 
 ## Sending an In-App message based on a geo-fence entry or exit
 

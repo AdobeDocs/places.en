@@ -46,10 +46,6 @@ Places Service comprises the following components:
 
   The geo-intelligent Launch rules that enable you to trigger actions with entry and exit events. The rules also allow you to use geo-attributes in conditions to personalize the experience. 
 
-* **Places Monitor extension**  
-  
-  The multi-platform mobile SDK which can be embedded in your mobile app to automatically monitor your user's location changes and trigger Places rules. For more information, see [Places Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
-
 ## Terminology
 
 Here are some common terms that are used in this documentation:

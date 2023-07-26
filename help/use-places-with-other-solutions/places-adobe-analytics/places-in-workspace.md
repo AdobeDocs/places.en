@@ -17,7 +17,7 @@ This document assumes the following:
 
 1. The Adobe Analytics user is an admin and has access to processing rules. 
   
-   For more information about processing rules, see [Processing rules overview](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+   For more information about processing rules, see [Processing rules overview](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
 
 1. In Launch property, data elements have been created for the Places Service variables that you want. 
 
@@ -38,7 +38,7 @@ In this example, the rule's action has the following values defined for the Anal
 
 ## 2. Create Analytics variables
 
-To map the context data (sent in step 1), variables must first be created for the Analytics report suite. For more information about creating variables in Analytics, see [Conversion variables (eVars)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
+To map the context data (sent in step 1), variables must first be created for the Analytics report suite. For more information about creating variables in Analytics, see [Conversion variables (eVars)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html).
 
 In this example, a conversion variable, **[!UICONTROL Evar2]**, has been created and named **[!UICONTROL Places POI Name]**. Additional variables will need to be created for each location variable you want to expose in reporting.
 
@@ -46,7 +46,7 @@ In this example, a conversion variable, **[!UICONTROL Evar2]**, has been created
 
 ## 3. Create processing rules
 
-This step is needed to map context data (step 1) to Analytics variables (step 2). For more information on creating processing rules, see [Processing rules overview](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+This step is needed to map context data (step 1) to Analytics variables (step 2). For more information on creating processing rules, see [Processing rules overview](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
 
 In this example, a processing rule has been created to map the context data value **[!UICONTROL poi.name]** into **[!UICONTROL Places POI Name (eVar2)]**. Additional processing rules will need to be created for each location variable created.
 
@@ -54,7 +54,7 @@ In this example, a processing rule has been created to map the context data valu
 
 ## 4. Generate a report in Workspace
 
-This step shows a basic report in Analytics Workspace to view the data collected in steps 1-3. For more information about how to use Analytics Workspace, see [Analytics Workspace overview](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html).
+This step shows a basic report in Analytics Workspace to view the data collected in steps 1-3. For more information about how to use Analytics Workspace, see [Analytics Workspace overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html).
 
 In this example, the report has the following settings:
 

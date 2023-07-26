@@ -43,7 +43,7 @@ Before you can use reporting, complete the following prerequisites:
 
 * Become familiar with Mobile Services reporting. 
 
-  For more information, see [Reports](https://docs.adobe.com/content/help/en/mobile-services/using/reports-ug/usage.html).
+  For more information, see [Reports](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
 
 ## Reporting visualization 
 

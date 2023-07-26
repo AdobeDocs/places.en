@@ -15,11 +15,11 @@ Before you begin, ensure that you have completed the following tasks:
 
 * The push notification channel in Mobile Services is set up.
 
-  For more information, see [Create a push message](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/prerequisites-push-messaging.html).
+  For more information, see [Create a push message](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
 
 * Understand how to send a push notification to an Analytics segment in Mobile Services.
 
-  For more information, see [Create a push message](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/push-messages/t-create-push-message.html).
+  For more information, see [Create a push message](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
 
 ## Send a notification
 

@@ -6,7 +6,7 @@ type: Documentation
 solution-title: Learn & Support
 solution-hub-url:  https://helpx.adobe.com/support/experience-cloud.html
 getting-started-title: Getting Started
-getting-started-url: https://docs.adobe.com/content/help/en/places/using/getting-started.html
+getting-started-url: https://experienceleague.adobe.com/docs/places/using/getting-started.html
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/#recommended/solutions/experience-platform
 git-repo: https://git.corp.adobe.com/AdobeDocs/places.en

@@ -48,7 +48,7 @@ Actions define what the app will do in response to the condition for the rule is
 
 >[!CAUTION]
 >
->This example assumes that you have created a POI library of all coffee shops in the United States. For more information about creating POIs and libraries, see [Create a POI](/help/poi-mgmt-ui/create-a-poi-ui.md) and *Create a Library* in [Manage multiple libraries](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
+>This example assumes that you have created a POI library of all coffee shops in the United States. For more information about creating POIs and libraries, see [Create a POI](/help/poi-mgmt-ui/create-a-poi-ui.md) and *Create a Library* in [Manage multiple libraries](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
 
 The following procedure is an example of how to create a rule that sends a post back to Slack when you enter a coffee shop in San Francisco.
 
@@ -118,7 +118,7 @@ To create a data element in Experience Platform Launch:
 
 ### Publish the rule
 
-1. To activate the rule, you must publish it. For more information about publishing your rule in Experience Platform Launch, see [Publishing](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
+1. To activate the rule, you must publish it. For more information about publishing your rule in Experience Platform Launch, see [Publishing](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html).
 
 ### Thinking beyond entries and exits
 

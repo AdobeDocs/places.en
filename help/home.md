@@ -78,4 +78,4 @@ Here are some common terms that are used in this documentation:
 
 * The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud. 
 
-  For more information, see [Overview](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html).
+  For more information, see [Overview](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).

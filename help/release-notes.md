@@ -11,7 +11,7 @@ exl-id: 76da9548-4e32-4b23-9a15-7012973915f3
 
    * Places and Places Monitor extensions have been added for [React Native applications](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
    * Places and Places Monitor extensions have been added for [Cordova applications](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
-   * For more information see: [Using Places Extension](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
+   * For more information see: [Using Places Extension](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
    
 
 ## May 12, 2020

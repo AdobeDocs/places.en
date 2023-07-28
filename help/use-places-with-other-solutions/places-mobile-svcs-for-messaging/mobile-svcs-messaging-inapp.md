@@ -27,7 +27,7 @@ These types are in-app messages because they are triggered by the SDK. Local not
 
 ### Prerequisites
 
-Before you begin, you understand how to send and create an in-app message in Mobile Services and how triggers work. For more information, see [Create an in-app message.](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/inapp-messages/t-in-app-message.html)
+Before you begin, you understand how to send and create an in-app message in Mobile Services and how triggers work. For more information, see [Create an in-app message.](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
 
 ## Rules in Experience Platform Launch
 
@@ -56,7 +56,7 @@ To create an action:
 
 >[!TIP]
 >
->Analytics Processing Rules can be set to pick up this context data. For more information, see [Processing Rules](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). In the example in *Create an action*, the Action will send the `poiname` as the context to describe the POI entry event that is being sent to Analytics.
+>Analytics Processing Rules can be set to pick up this context data. For more information, see [Processing Rules](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). In the example in *Create an action*, the Action will send the `poiname` as the context to describe the POI entry event that is being sent to Analytics.
 
 ![creating an action](/help/assets/configure-action.png)
 

@@ -1,6 +1,7 @@
 ---
 title: Places extension
 description: The Places extension allows you to act based on the location of your users.
+feature: Mobile SDK
 exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
 ---
 # Places extension {#places-extension}

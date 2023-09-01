@@ -47,12 +47,8 @@ feature: Places
         + [Update multiple POIs](web-service-api/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
         + [Delete multiple POIs](web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
     + [Query APIs](web-service-api/api-usage/query-apis.md)
-+ Extensions for the Mobile SDKs {#places-ext-aep-sdks}
-  + Places extension {#places-extension}
-    + [Places extension](places-ext-aep-sdks/places-extension/places-extension.md)
-    + [Places API reference](places-ext-aep-sdks/places-extension/places-api-reference.md)
-    + [Places event reference](places-ext-aep-sdks/places-extension/places-event-ref.md)
-    + [Custom Places objects](places-ext-aep-sdks/places-extension/cust-places-objects.md)
++ Extensions for the Mobile SDKs {#places-ext-aep-sdks}  
+  + [Places extension](places-ext-aep-sdks/places-extension/places-extension.md)    
 + [Use Places Service with your own monitoring solution](using-your-own-monitor.md)
 + [Use Places Service without active region monitoring](use-places-without-active-monitoring.md)
 + Use Places Service as part of the Experience Platform Launch workflow {#use-places-launch-workflow}

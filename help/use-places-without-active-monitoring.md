@@ -120,9 +120,9 @@ See [Add Location Context to Analytics Requests](use-places-with-other-solutions
 >
 >The recommended way to capture Places data is to [Attach Places data to your Analytics requests](#attach-places-data-to-your-analytics-requests).
 >
->If the use case requires a [region entry event](places-ext-aep-sdks/places-extension/places-event-ref.md#processregionevent) to be triggered by the SDK, it will need to be done manually as outlined below.
+>If the use case requires a [region entry event](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#processregionevent) to be triggered by the SDK, it will need to be done manually as outlined below.
 
-The list returned by the `getNearbyPointsOfInterest` API contains [custom objects](places-ext-aep-sdks/places-extension/cust-places-objects.md) that indicate if the user is currently within a POI. If the user is in a POI, you can have the SDK trigger an entry event for that region.
+The list returned by the `getNearbyPointsOfInterest` API contains [custom objects](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#additional-classes-and-enums) that indicate if the user is currently within a POI. If the user is in a POI, you can have the SDK trigger an entry event for that region.
 
 >[!IMPORTANT]
 >

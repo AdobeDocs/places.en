@@ -6,6 +6,10 @@ exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
 ---
 # Places extension {#places-extension}
 
+Navigate to the Adobe developer portal to view documentation for the [Places SDK extensions](https://developer.adobe.com/client-sdks/documentation/places/).
+
+<!-- 
+
 The Places extension allows you to act based on the location of your users. This extension is the interface to the Places Query Service APIs. By listening for events that contain GPS coordinates and geofence region events, this extension dispatches new events that are processed by the Rules Engine. The Places extension also retrieves and delivers a list of the nearest POI for the app data that retrieves from the APIs. The regions returned by the APIs are stored in cache and persistence, which allows limited offline processing.
 
 ## Install the Places extension in Adobe Experience Platform Launch
@@ -232,3 +236,5 @@ To update the SDK configuration programmatically at runtime, use the following i
 | `places.libraries` | Yes | The Places extension libraries for the mobile app. It specifies the library ID and the name of the library that the mobile app supports. |
 | `places.endpoint` | Yes | The default Places Query Service endpoint, which is used to get information about libraries and POIs. |
 | `places.membershipttl` | No | Default value of 3600 (seconds in an hour). Indicates how long, in seconds, Places membership information for the device will remain valid. |
+
+-->

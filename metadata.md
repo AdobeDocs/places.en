@@ -10,7 +10,7 @@ getting-started-title: Getting Started
 getting-started-url: https://experienceleague.adobe.com/docs/places/using/getting-started.html
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/#recommended/solutions/experience-platform
-git-repo: https://git.corp.adobe.com/AdobeDocs/places.en
+git-repo: https://github.com/AdobeDocs/places.en
 index: yes
 ---
 

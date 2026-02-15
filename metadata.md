@@ -1,7 +1,9 @@
 ---
 cloud: Experience Cloud
 product: places service
-solution: Data Collection
+solution: Data Collection, Experience Platform
+landing-page-name: mobile
+landing-page-breadcrumb-title: Mobile SDK
 feature-set: Experience Platform
 type: Documentation
 solution-title: Learn & Support

@@ -13,7 +13,7 @@ getting-started-url: https://experienceleague.adobe.com/docs/places/using/gettin
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/#recommended/solutions/experience-platform
 git-repo: https://github.com/AdobeDocs/places.en
-index: yes
+index: true
 ---
 
 <!-- We need better links for Getting Started and Tutorials. We can do this after we hit stage -->

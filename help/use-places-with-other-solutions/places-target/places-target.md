@@ -2,6 +2,23 @@
 title: Adobe Target
 description: This section provides information about how to use Places Service with Adobe Target.
 exl-id: 6ee91fca-ea48-4de2-8dcf-87981813c678
+TQID: https://experienceleague.adobe.com/WsfkEJD0mN5aYKETjcnqiC13dVe5NPYeKfOCTOK82uE
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+feature_v2:
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
+subfeature_v2:
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 # Use Places Service with Adobe Target {#places-target}
 

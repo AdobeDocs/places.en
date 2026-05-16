@@ -4,7 +4,7 @@ product: places service
 solution: Data Collection, Experience Platform
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-    label: "Experience Platform"
+    internal-label: "Experience Platform"
 landing-page-name: mobile
 landing-page-breadcrumb-title: Mobile SDK
 feature-set: Experience Platform

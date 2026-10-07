@@ -2,6 +2,9 @@
 title: Batch APIs
 description: With batch APIs, you can create, update, and delete multiple POIs.
 exl-id: 8c77e5e3-2700-4684-a480-c638691994e5
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Batch APIs {#batch-apis}
 

@@ -2,6 +2,9 @@
 title: Update a library
 description: Update a library by using the Places REST API.
 exl-id: 37ca2be2-39e1-4f8e-87c2-ef4cb366db0d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Update a library {#update-a-library}
 

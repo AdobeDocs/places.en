@@ -3,6 +3,12 @@ title: Custom Places objects
 description: Information about custom native classes used with the Places APIs.
 feature: Mobile SDK
 exl-id: deb16ba3-bd59-42b1-85ec-0f7de17f91f8
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+feature_v2:
+  - id: a8a79b8d-fdca-499c-a5ef-f88a099d8eb9
+    internal-label: Mobile SDK
 ---
 # Custom Places objects {#places-objects}
 

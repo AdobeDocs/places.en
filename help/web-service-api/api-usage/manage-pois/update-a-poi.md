@@ -2,6 +2,9 @@
 title: Update a POI
 description: Update a POI by using the Places REST APIs.
 exl-id: f155d1d3-88a3-47bc-bffe-a35842a639e2
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Update a POI {#update-a-poi}
 

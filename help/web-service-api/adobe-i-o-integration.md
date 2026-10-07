@@ -2,6 +2,9 @@
 title: Adobe Developer Project overview
 description: Information about creating an Adobe Developer API Project.
 exl-id: d7d31938-6c0e-40f8-a9d3-30af96043119
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Places API access overview and prerequisites {#developer-prereqs}
 

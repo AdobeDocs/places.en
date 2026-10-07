@@ -2,6 +2,9 @@
 title: Overview
 description: Understanding and using Query APIs.
 exl-id: cc61a49c-1cf2-407f-b81a-3d38fcb622cc
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Query APIs
 

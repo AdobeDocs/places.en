@@ -2,6 +2,9 @@
 title: Read all POIs in your organization
 description: Read all POIs in your organization by using the Places REST APIs.
 exl-id: 8068a2bc-ce1c-4f3b-8a0c-c38998c1c2e2
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Read all POIs in your organization {#read-all-pois-org}
 

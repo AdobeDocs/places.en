@@ -1,7 +1,9 @@
 ---
 title: Using Experience Platform Launch rules and data elements with Places data.
 description: Information about rules and data elements and Places data.
-
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Using Experience Platform Launch rules and data elements with Places data

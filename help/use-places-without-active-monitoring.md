@@ -5,7 +5,7 @@ exl-id: 0ba7949a-447e-4754-9b45-945e58e29541
 TQID: https://experienceleague.adobe.com/xUmdMOa5CvDZSxKFeyse-3vHsUwvm2s04-sIG0FnnCs
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: Experience Cloud
+    internal-label: CX Enterprise
   - id: dc5cf79d-43c4-4731-bffa-1df5d7549cb1
     internal-label: Adobe Sign
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a

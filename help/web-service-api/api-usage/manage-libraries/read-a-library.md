@@ -2,6 +2,9 @@
 title: Read a library
 description: Read a library by using the Places REST API.
 exl-id: c9c5a862-beab-42a9-8e40-abf93da592ea
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Read a library {#read-a-library}
 

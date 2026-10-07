@@ -2,6 +2,9 @@
 title: Set a rank on your libraries
 description: Set a rank on your libraries by using the Places REST API.
 exl-id: c922bddc-1587-4da8-acb4-c2d69ce11808
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Set a rank on your libraries {#set-rank-on-libraries}
 

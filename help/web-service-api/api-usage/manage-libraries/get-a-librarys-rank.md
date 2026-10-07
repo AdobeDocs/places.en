@@ -2,6 +2,9 @@
 title: Get a library's rank
 description: Get a library's rank by using the Places REST API.
 exl-id: c0abedd0-5ff4-4a01-9f8d-e3d17ea53a97
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Get a library's rank {#get-library-rank}
 

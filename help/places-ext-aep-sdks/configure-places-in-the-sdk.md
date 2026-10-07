@@ -1,6 +1,9 @@
 ---
 title: Configure the SDK with the Places extension
-description: You can configure the SDK with the Places extension to enable location awareness in your mobile app. 
+description: You can configure the SDK with the Places extension to enable location awareness in your mobile app.
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Configure the SDK with Places extension {#configure-sdk-places-extension}

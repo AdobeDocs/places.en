@@ -1,6 +1,9 @@
 ---
 title: Using Places Service with other Adobe solutions
 description: This section shows you how to use Places Service with other Adobe solutions.
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 
 # Use Places Service with other Adobe solutions {#use-places-other-solutions}

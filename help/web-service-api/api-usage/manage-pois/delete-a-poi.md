@@ -2,6 +2,9 @@
 title: Delete a POI
 description: Delete a POI by using the Places REST APIs.
 exl-id: 0325eb3b-f9b2-4b21-bed8-e318e8072a69
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Delete a POI {#delete-a-poi}
 

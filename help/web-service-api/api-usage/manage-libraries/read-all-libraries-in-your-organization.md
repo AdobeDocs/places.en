@@ -2,6 +2,9 @@
 title: Read all libraries in your organization
 description: Read all libraries in your organization by using the Places REST API.
 exl-id: 3384e1f2-9626-498d-85f7-84569d869c2c
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Read all libraries in your organization {#read-all-lib-in-org}
 

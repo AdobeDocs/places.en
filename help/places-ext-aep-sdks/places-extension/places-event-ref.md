@@ -3,6 +3,12 @@ title: Places event reference
 description: A list of the events that are handled by the Places extension.
 feature: Mobile SDK
 exl-id: 98210ef4-5ff1-4792-b97b-2845ce02e78a
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+feature_v2:
+  - id: a8a79b8d-fdca-499c-a5ef-f88a099d8eb9
+    internal-label: Mobile SDK
 ---
 # Places event reference {#places-event-reference}
 

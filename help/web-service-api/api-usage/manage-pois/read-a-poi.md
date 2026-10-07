@@ -2,6 +2,9 @@
 title: Read a POI
 description: Read a POI by using the Places REST APIs.
 exl-id: 19eb73c4-5101-47a9-8c79-bc4790ecf472
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Read a POI {#read-a-poi}
 

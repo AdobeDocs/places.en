@@ -2,6 +2,9 @@
 title: Create a POI
 description: Create a POI by using the Places REST APIs.
 exl-id: 0f5b5b40-11f0-4122-b3d5-c3853a6e8ca5
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Create a POI {#create-a-poi}
 

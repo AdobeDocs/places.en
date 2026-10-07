@@ -2,6 +2,9 @@
 title: Manage POIs overview
 description: Understand and work with POIs.
 exl-id: 3e46481b-0fee-4b7b-a6ea-034b89c80d82
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Manage POIs overview {#manage-pois}
 

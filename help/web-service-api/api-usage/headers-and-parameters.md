@@ -2,6 +2,9 @@
 title: Headers and parameters
 description: Headers and parameters that are available in the Places Service REST APIs.
 exl-id: 3c7e76de-f0ff-4966-a3ec-7f64d819c140
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Headers and parameters {#headers-and-parameters}
 

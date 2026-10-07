@@ -2,6 +2,9 @@
 title: Create a library
 description: Create a library by using the Places REST API.
 exl-id: 155cc6e6-9254-4389-bb02-e526d15908f4
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Create a library {#create-a-library}
 

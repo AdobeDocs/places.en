@@ -2,6 +2,9 @@
 title: Read all POIs in a library
 description: Read all POIs in a library by using the Places REST APIs.
 exl-id: 08544909-661c-4a14-84e0-bacd0241a844
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Read all POIs in a library {#read-all-pois-library}
 

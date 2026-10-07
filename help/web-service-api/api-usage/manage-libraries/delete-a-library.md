@@ -2,6 +2,9 @@
 title: Delete a library
 description: Delete a library by using the Places REST APIs.
 exl-id: ad45ea38-9e12-43d7-b05f-17d3e40abaf5
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 ---
 # Delete a library {#delete-a-library}
 
